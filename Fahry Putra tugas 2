@@ -1,0 +1,27 @@
+# Program Database Siswa
+
+print("================================")
+print("        DATABASE SISWA")
+print("================================")
+
+# Input data siswa secara manual
+nama = input("Masukkan Nama        : ")
+nisn = input("Masukkan NISN        : ")
+kelas = input("Masukkan Kelas       : ")
+jenis_kelamin = input("Masukkan Jenis Kelamin: ")
+umur = int(input("Masukkan Umur        : "))
+gol_darah = input("Masukkan Golongan Darah: ")
+alamat = input("Masukkan Alamat      : ")
+
+# Menampilkan data siswa
+print("\n================================")
+print("         DATA SISWA")
+print("================================")
+print("Nama          :", nama)
+print("NISN          :", nisn)
+print("Kelas         :", kelas)
+print("Jenis Kelamin :", jenis_kelamin)
+print("Umur          :", umur, "tahun")
+print("Golongan Darah:", gol_darah)
+print("Alamat        :", alamat)
+print("================================")
